@@ -1,0 +1,8 @@
+<h1>My Name in app my detail component is {{ name }}</h1>
+<div>here are some numbers</div>
+<div *ngFor="let value of numbers">
+  {{ value }}
+</div>
+<h3>Change Name below</h3>
+<input type="text" name="" id="" [(ngModel)]="name" />
+<button (click)="changeName()">Click to Change Name</button>

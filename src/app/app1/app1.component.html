@@ -1,0 +1,7 @@
+This text box is in Parent
+<input type="text" name="" id="" [(ngModel)]="user.age" />
+
+<h6>The below component is child</h6>
+<app-child1 *ngIf="user.age % 2 === 0" [user]="user"></app-child1>
+
+
